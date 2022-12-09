@@ -123,7 +123,28 @@
 
             <p>Create 6 objects , each object will have name, class, roll no as properties. Store these objects in an array of objects. </p>
             <pre>
-
+                let StuArr = []
+                function student(name, clas, rollno){
+                        this.stuName = name,
+                        this.stuClass = clas,
+                        this.stuRollNo = rollno
+                }
+        
+                let Student1 = new student('EA17', 'Sept', 25)
+                let Student2 = new student('EA18', 'Oct', 256)
+                let Student3 = new student('EA19', 'Nov', 256)
+                let Student4 = new student('EA20', 'Dec', 25)
+                let Student5 = new student('EA21', 'Jan', 256)
+                let Student6 = new student('EA22', 'Feb', 256)
+        
+        StuArr.push(Student1)
+        StuArr.push(Student2)
+        StuArr.push(Student3)
+        StuArr.push(Student4)
+        StuArr.push(Student5)
+        StuArr.push(Student6)
+        
+        console.log(StuArr);
             </pre>
 </div>
 
